@@ -9,9 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(posts) { post in
+                Text(post.title)
+            }
+            .navigationTitle("Hacker news")
+        }
     }
+}
+
+struct Post: Identifiable {
+    let id: String
+    let title: String
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +28,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+let posts = [
+    Post(id: "1", title: "the first post"),
+    Post(id: "2", title: "the second post"),
+    Post(id: "3", title: "the third post")
+]
