@@ -13,6 +13,8 @@
 		B2237AE827AE912000C21A30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2237AE727AE912000C21A30 /* Preview Assets.xcassets */; };
 		B2237AF027AE95F900C21A30 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2237AEF27AE95F900C21A30 /* NetworkManager.swift */; };
 		B2237AF227AE979E00C21A30 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2237AF127AE979E00C21A30 /* PostData.swift */; };
+		B2237AF527AE9E2D00C21A30 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2237AF427AE9E2D00C21A30 /* SwiftUIView.swift */; };
+		B2237AF727AEAAFF00C21A30 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2237AF627AEAAFF00C21A30 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B2237AE727AE912000C21A30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2237AEF27AE95F900C21A30 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B2237AF127AE979E00C21A30 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		B2237AF427AE9E2D00C21A30 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B2237AF627AEAAFF00C21A30 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,7 @@
 			children = (
 				B2237AEE27AE95D400C21A30 /* Models */,
 				B2237AE027AE911B00C21A30 /* hacker_news_readerApp.swift */,
-				B2237AE227AE911B00C21A30 /* ContentView.swift */,
+				B2237AF327AE9DF700C21A30 /* views */,
 				B2237AE427AE912000C21A30 /* Assets.xcassets */,
 				B2237AE627AE912000C21A30 /* Preview Content */,
 			);
@@ -79,6 +83,16 @@
 				B2237AF127AE979E00C21A30 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B2237AF327AE9DF700C21A30 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B2237AE227AE911B00C21A30 /* ContentView.swift */,
+				B2237AF427AE9E2D00C21A30 /* SwiftUIView.swift */,
+				B2237AF627AEAAFF00C21A30 /* WebView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +168,9 @@
 				B2237AF027AE95F900C21A30 /* NetworkManager.swift in Sources */,
 				B2237AF227AE979E00C21A30 /* PostData.swift in Sources */,
 				B2237AE327AE911B00C21A30 /* ContentView.swift in Sources */,
+				B2237AF727AEAAFF00C21A30 /* WebView.swift in Sources */,
 				B2237AE127AE911B00C21A30 /* hacker_news_readerApp.swift in Sources */,
+				B2237AF527AE9E2D00C21A30 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
